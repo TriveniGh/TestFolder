@@ -1,0 +1,241 @@
+2016.04.22 01:15:16  info : Framing Smoke test Rresource path :D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke
+
+2016.04.22 01:15:16  info : Module sheet path is :D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MODULES.xlsx
+
+2016.04.22 01:15:16  info : Following Excel sheet loaded successfuly D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MODULES.xlsx
+
+2016.04.22 01:15:16  info : Total number of Modules listed in the modul execution sheet6
+
+2016.04.22 01:15:16  info : Selected Browser name is : Firefox
+
+2016.04.22 01:15:16  info : Currently loadding module is : MBC_Proxy
+
+2016.04.22 01:15:16  info : The following test data sheet loaded successfulyD:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MBC_Proxy.xlsx
+
+2016.04.22 01:15:16  info :  Total number of scenarios to be executed as per Test Data sheet2
+
+2016.04.22 01:15:16  info : Current executable Scenario name :Scenario1
+
+2016.04.22 01:15:16  info : The Scenario Description is:MBC Proxy Scenario Verification
+
+- Login functionality with valid users
+- Verification for 'Administration Access'
+- 'Employee Search ' verification
+- 'Verification for 'Impersonate' option.
+- 'Menu' option Verification
+- Verify 'Life Event Activity' for user as 'Birth Adoption' as life event.
+- 'End of impersonation' verification.
+
+2016.04.22 01:15:16  info : Navigating to sheet and taking function name into Function_Name_List  : Scenario1
+
+2016.04.22 01:15:16  info : Launching Browser window
+
+2016.04.22 01:15:16  info : Current Module is execuing agains Browser as :Firefox
+
+2016.04.22 01:15:22  info : FireFox driver is loaded
+
+2016.04.22 01:15:22  info : Getting row count of Test methods to be executed sheet: 11
+
+2016.04.22 01:15:22  info : Getting column count of Test methods to be executed sheet: 12
+
+2016.04.22 01:15:22  info : Current executing function name is : ImpersonateFunc
+
+2016.04.22 01:15:22  info : Current executing class name is : MBC_Proxy
+
+2016.04.22 01:15:22  info : Test scenario description is : To Impersonate a user and do necessary action for that user
+
+2016.04.22 01:15:22  info : The Parameter Name is : Last Name and value is : 
+
+2016.04.22 01:15:22  info : The Parameter Name is : Employee Number and value is : 
+
+2016.04.22 01:15:22  info : The Parameter Name is : SSN and value is : 510103197
+
+2016.04.22 01:15:22  info : The Parameter Name is : URL and value is : https://auth-qai.mercerbenefitscentral.com/MBCQA3/login.tpz
+
+2016.04.22 01:15:22  info : The Parameter Name is : UserName and value is : testmbc33195
+
+2016.04.22 01:15:22  info : The Parameter Name is : Password and value is : test0001
+
+2016.04.22 01:15:22  info : Getting out from the scenario execution list
+
+2016.04.22 01:15:22  info : the name of the class  : MBC_Proxy
+
+2016.04.22 01:15:22  info : the name of the Function or Method Name  : ImpersonateFunc
+
+2016.04.22 01:15:22  info : Entering to 'ImpersonateFunc' method
+
+2016.04.22 01:15:27  info : Results folder path is created!!
+
+2016.04.22 01:15:28  info : Launching the URL*--*--*--*
+
+2016.04.22 01:15:28  info :   loading  the page*--*--*--*
+
+2016.04.22 01:15:28  error :  OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#usernameId"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.EnterText(String PageName, String ObjectName, String TextBoxtext) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 290
+
+2016.04.22 01:15:31  info : Results folder path is already created!!
+
+2016.04.22 01:15:31  info : Results folder path is already created!!
+
+2016.04.22 01:15:31  info : In MBC_Proxy*-_-*-_-*-_-*MBCUserName
+
+2016.04.22 01:15:31  error :  OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#passwordId"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.EnterText(String PageName, String ObjectName, String TextBoxtext) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 290
+
+2016.04.22 01:15:34  info : Results folder path is already created!!
+
+2016.04.22 01:15:35  info : Results folder path is already created!!
+
+2016.04.22 01:15:35  info : In MBC_Proxy*-_-*-_-*-_-*MBCPassword
+
+2016.04.22 01:15:45  error : Element does not found in the page OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#TopazWebPartManager1_twp1808134992_ctl11"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.<>c__DisplayClass2.<WaitfortheElementPresent>b__0(IWebDriver driv) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.WaitfortheElementPresent(By by) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+
+2016.04.22 01:15:45  info : Wait for the element Present *-_-*-_-*-_-*
+
+2016.04.22 01:15:45  error : LoginButton is not found in MBC_Proxy System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.Click(String PageName, String ObjectName) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 154
+
+2016.04.22 01:15:48  info : Results folder path is already created!!
+
+2016.04.22 01:15:48  info : Results folder path is already created!!
+
+2016.04.22 01:15:48  info : InMBC_Proxy*-_-*-_-*-_-*LoginButton
+
+2016.04.22 01:15:48  info :   loading  the page*--*--*--*
+
+2016.04.22 01:15:59  error : Element does not found in the page OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"a[href='/admin/menu']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.<>c__DisplayClass2.<WaitfortheElementPresent>b__0(IWebDriver driv) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.WaitfortheElementPresent(By by) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+
+2016.04.22 01:15:59  info : Wait for the element Present *-_-*-_-*-_-*
+
+2016.04.22 01:15:59  error : AdminAccessLink is not found in MBC_Proxy System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.Click(String PageName, String ObjectName) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 154
+
+2016.04.22 01:16:02  info : Results folder path is already created!!
+
+2016.04.22 01:16:02  info : Results folder path is already created!!
+
+2016.04.22 01:16:02  info : InMBC_Proxy*-_-*-_-*-_-*AdminAccessLink
+
+2016.04.22 01:16:02  info :   loading  the page*--*--*--*
+
+2016.04.22 01:16:02  error : EmpSearchButtonis not displayed inEmployeeSearchPagePage OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".col-xs-6.ng-scope .btn.btn-primary.allcaps"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.IsDisplayed(String PageName, String ObjectName) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 125
+
+2016.04.22 01:16:05  info : Results folder path is already created!!
+
+2016.04.22 01:16:05  info : Results folder path is already created!!
+
+2016.04.22 01:16:05  info : InEmployeeSearchPage*-_-*-_-*-_-*EmpSearchButton
+
+2016.04.22 01:16:16  error : Element does not found in the page OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".description"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.<>c__DisplayClass2.<WaitfortheElementPresent>b__0(IWebDriver driv) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.WaitfortheElementPresent(By by) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+
+2016.04.22 01:16:16  info : Wait for the element Present *-_-*-_-*-_-*
+
+2016.04.22 01:16:16  error :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.VerifyText(String PageName, String ObjectName, String Expval) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 24
+
+2016.04.22 01:16:19  info : Results folder path is already created!!
+
+2016.04.22 01:16:19  info : InEmployeeSearchPage*-_-*-_-*-_-*EmpSearchLabel
+
+2016.04.22 01:16:30  error : Element does not found in the page OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".col-xs-6.ng-scope .btn.btn-primary.allcaps"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.<>c__DisplayClass2.<WaitfortheElementPresent>b__0(IWebDriver driv) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.WaitfortheElementPresent(By by) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 97
+
+2016.04.22 01:16:30  info : Wait for the element Present *-_-*-_-*-_-*
+
+2016.04.22 01:16:30  error : EmpSearchButton is not found in EmployeeSearchPage System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.Click(String PageName, String ObjectName) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 154
+
+2016.04.22 01:17:04  info : InEmployeeSearchPage*-_-*-_-*-_-*EmpSearchButton
+
+2016.04.22 01:17:04  error : Impersonate Function has the following exceptionSystem.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005 Server execution failed (Exception from HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+   at System.Runtime.Remoting.RemotingServices.AllocateUninitializedObject(RuntimeType objectType)
+   at System.Runtime.Remoting.Activation.ActivationServices.CreateInstance(RuntimeType serverType)
+   at System.Runtime.Remoting.Activation.ActivationServices.IsCurrentContextOK(RuntimeType serverType, Object[] props, Boolean bNewObj)
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Mercer.Us.Ben.Automation.Main.Test.Result(String Expected_Result, String Actual_Result, String Comments) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Main\Test.cs:line 317
+   at Mercer.Us.Ben.Automation.Utility_Code.Browser.Click(String PageName, String ObjectName) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Utility_Code\Browser.cs:line 172
+   at Mercer.Us.Ben.Automation.Test_Methods.MBC.MBC_Proxy.ImpersonateFunc() in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Test_Methods\MBC\MBC_Proxy.cs:line 32
+
+2016.04.22 01:17:07  info : Results folder path is already created!!
+
+2016.04.22 01:17:07  info : Results folder path is already created!!
+
+2016.04.22 01:17:07  info : Exiting from 'ImpersonateFunc' method
+

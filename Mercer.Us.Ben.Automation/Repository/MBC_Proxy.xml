@@ -1,0 +1,146 @@
+﻿<pages>
+  
+  <page name='MBC_Proxy'>
+     <uiobject name="MBCUserName" type="">
+      <locator>css=#usernameId</locator>
+    </uiobject>
+    <uiobject name="MBCPassword" type="">
+      <locator>css=#passwordId</locator>
+    </uiobject>
+    <uiobject name="LoginButton" type="">
+      <locator>css=#TopazWebPartManager1_twp1808134992_ctl11</locator>
+    </uiobject>
+    <uiobject name="AdminAccessLink" type="">
+      <locator>css=a[href='/admin/menu']</locator>
+    </uiobject>
+  </page>
+  
+  <page name='EmployeeSearchPage'>
+    <uiobject name="EmpSearchButton" type="">
+      <locator>css=.col-xs-6.ng-scope .btn.btn-primary.allcaps</locator>
+    </uiobject>
+    <uiobject name="EmpSearchLabel" type="">
+      <locator>css=.description</locator>
+    </uiobject> 
+  </page>
+  
+  <page name='WhatToDoHerePage'>
+    <uiobject name="EmployeeSearchLabel" type="">
+      <locator>css=.header</locator>
+    </uiobject>
+    <uiobject name="PinIcon" type="">
+      <locator>css=.fa.fa-thumb-tack.fa-stack-1x.fa-inverse</locator>
+    </uiobject>
+    <uiobject name="WhatToDoLabel" type="">
+      <locator>css=h4 span[data-bo-bind='static.Terms.WhatToDoHere']</locator>
+    </uiobject>
+    <uiobject name="ToInitiateSearchLabel" type="">
+      <locator>css=.instruction</locator>
+    </uiobject>
+    <uiobject name="PrintButton" type="">
+      <locator>css=.btn.btn-primary.btn-next</locator>
+    </uiobject>
+    <uiobject name="SearchByLabel" type="">
+      <locator>css=.pull-right span[data-bo-bind='static.Terms.SearchBy']</locator>
+    </uiobject>
+    <uiobject name="SearchByDropDown" type="">
+      <locator>css=.btn.dropdown-toggle.selectpicker.btn-default</locator>
+    </uiobject>
+    <uiobject name="SearchByEmpNum" type="">
+      <locator>css=li[rel='1'] .text</locator>
+    </uiobject>
+    <uiobject name="SearchBySSN" type="">
+      <locator>css=li[rel='3'] .text</locator>
+    </uiobject>
+    <uiobject name="KeywordLabel" type="">
+      <locator>css=.col-xs-1.input-label span[data-bo-bind='static.Terms.Keyword']</locator>
+    </uiobject>
+    <uiobject name="KeywordTextBox" type="">
+      <locator>css=input[type='text']</locator>
+    </uiobject>
+    <uiobject name="Tips" type="">
+      <locator>css=.col-xs-4 .tip</locator>
+    </uiobject>
+    <uiobject name="SearchButton" type="">
+      <locator>css=.col-xs-2 .btn.btn-primary.allcaps</locator>
+    </uiobject>
+  </page>
+  <page name='EmployeeSearchResultsPage'>
+    <uiobject name="RadioButton" type="">
+      <locator>css=button[btn-radio='result.SSN']</locator>
+    </uiobject>
+    <uiobject name="SelectLabel" type="">
+      <locator>css=.col-xs-1.cond.allcaps.select-col</locator>
+    </uiobject>
+    <uiobject name="SSNLabel" type="">
+      <locator>css=.row.header div:nth-child(2) span</locator>
+    </uiobject>
+    <uiobject name="LastNameLabel" type="">
+      <locator>css=.cond.allcaps.col-xs-1.col-sxs-3 span</locator>
+    </uiobject>
+    <uiobject name="FirstNameLabel" type="">
+      <locator>css=.row.header div:nth-child(4) span</locator>
+    </uiobject>
+    <uiobject name="StatusLabel" type="">
+      <locator>css=.row.header div:nth-child(5) span</locator>
+    </uiobject>
+    <uiobject name="CityLabel" type="">
+      <locator>css=.row.header div:nth-child(6) span</locator>
+    </uiobject>
+    <uiobject name="StateLabel" type="">
+      <locator>css=.row.header div:nth-child(7) span</locator>
+    </uiobject>
+    <uiobject name="LOBLabel" type="">
+      <locator>css=.row.header div:nth-child(8) span</locator>
+    </uiobject>
+    <uiobject name="SSNContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(2) span</locator>
+    </uiobject>
+    <uiobject name="LastNameContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(3) span</locator>
+    </uiobject>
+    <uiobject name="FirstNameContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(4) span</locator>
+    </uiobject>
+    <uiobject name="StatusContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(5) span</locator>
+    </uiobject>
+    <uiobject name="CityContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(6) span</locator>
+    </uiobject>
+    <uiobject name="StateContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(7) span</locator>
+    </uiobject>
+    <uiobject name="LOBContentLabel" type="">
+      <locator>css=.row.ng-scope.first div:nth-child(8) span</locator>
+    </uiobject>
+    <uiobject name="ImpersonateButton" type="">
+      <locator>css=button[data-bo-bind='static.Terms.Impersonate']</locator>
+    </uiobject>
+  </page>
+  <page name='ImpersonatedHomePage'>
+    <uiobject name="AttensionLabel" type="">
+      <locator>css=.allcaps.attention-text</locator>
+    </uiobject>
+    <uiobject name="ImpersonatingLabel" type="">
+      <locator>css=span[data-bo-bind='static.Terms.YouAreImpersonating']</locator>
+    </uiobject>
+    <uiobject name="UserDetailsLabel" type="">
+      <locator>css=.message.h5 .allcaps.ng-binding</locator>
+    </uiobject>
+    <uiobject name="EndImpersonationButton" type="">
+      <locator>css=.navbar-group-right .btn.btn-primary.allcaps</locator>
+    </uiobject>
+  </page>
+  <page name='loginPage'>
+    <uiobject name="LoginButton" type="">
+      <locator>css=#TopazWebPartManager1_twp1808134992_ctl11</locator>
+    </uiobject>
+    <uiobject name="Logout" type="">
+      <locator>css=a[data-bo-bind='static.Terms.Logout']</locator>
+    </uiobject>
+    <uiobject name="errormsg" type="">
+      <locator>css=.error-page.error-page-500.ng-scope h2</locator>
+    </uiobject>
+  </page>
+</pages>

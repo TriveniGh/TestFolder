@@ -1,0 +1,199 @@
+﻿<pages>
+
+  <page name='MBC_Login'>
+
+    <uiobject name="ReturningUserLabel" type="">
+      <locator>css=.col-sm-6 h2</locator>
+    </uiobject>
+    <uiobject name="LogInLabel" type="">
+      <locator>css=.col-sm-6 p span</locator>
+    </uiobject>
+    <uiobject name="LoginImage" type="">
+      <locator>css=.tabnavbar_headercontainer</locator>
+    </uiobject>
+    <uiobject name="MBCUserName" type="">
+      <locator>css=#usernameId</locator>
+    </uiobject>
+    <uiobject name="MBCPassword" type="">
+      <locator>css=#passwordId</locator>
+    </uiobject>
+    <uiobject name="LoginButton" type="">
+      <locator>css=#TopazWebPartManager1_twp1808134992_ctl11</locator>
+    </uiobject>
+    <uiobject name="NewUsersLabel" type="">
+      <locator>css=h2 span</locator>
+    </uiobject>
+    <uiobject name="RegisterUrAccLabel" type="">
+      <locator>css=.col-sm-5 p span</locator>
+    </uiobject>
+    <uiobject name="GetStartedButton" type="">
+      <locator>css=input[type='submit'][value='Get Started']</locator>
+    </uiobject>
+    <uiobject name="HelpfulHintsLink" type="">
+      <locator>css=ul li:nth-child(1) .link</locator>
+    </uiobject>
+    <uiobject name="RecommendedBrowLink" type="">
+      <locator>css=ul li:nth-child(2) .link</locator>
+    </uiobject>
+    <uiobject name="PrivacyPolicyLink" type="">
+      <locator>css=.footercontrol_links ul li:nth-child(1) a</locator>
+    </uiobject>
+    <uiobject name="TermsofUseLink" type="">
+      <locator>css=.footercontrol_links ul li:last-child a</locator>
+    </uiobject>
+  </page>
+
+  <page name='ForgetUnamePwd'>
+    <uiobject name="ForgotUnameorPwdLabel" type="">
+      <locator>css=.inline_links.two_across</locator>
+    </uiobject>
+    <uiobject name="UnameLink" type="">
+      <locator>css=a:contains('User Name')</locator>
+    </uiobject>
+    <uiobject name="ForgotLink" type="">
+      <locator>css=a:contains('Password')</locator>
+    </uiobject>
+    <uiobject name="ForgotUnameorPwdPageLabel" type="">
+      <locator>css=td h1</locator>
+    </uiobject>
+    <uiobject name="ToResetLabel" type="">
+      <locator>css=p span</locator>
+    </uiobject>
+    <uiobject name="SSNLabel" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_securityNumber']</locator>
+    </uiobject>
+    <uiobject name="LastNameLabel" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_lastName']</locator>
+    </uiobject>
+    <uiobject name="DOBLabel" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_dob']</locator>
+    </uiobject>
+    <uiobject name="PostalCodeLabel" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_zipCode']</locator>
+    </uiobject>
+    <uiobject name="CountryLabel" type="">
+      <locator>css=.form_label.form_label_override span</locator>
+    </uiobject>
+    <uiobject name="USRadioButton" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_country_0']</locator>
+    </uiobject>
+    <uiobject name="OthersRadioButton" type="">
+      <locator>css=label[for='TopazWebPartManager1_twp54834229_country_1']</locator>
+    </uiobject>
+    <uiobject name="SSN" type="">
+      <locator>css=#TopazWebPartManager1_twp54834229_securityNumber</locator>
+    </uiobject>
+    <uiobject name="LastName" type="">
+      <locator>css=#TopazWebPartManager1_twp54834229_lastName</locator>
+    </uiobject>
+    <uiobject name="DOB" type="">
+      <locator>css=#TopazWebPartManager1_twp54834229_dob</locator>
+    </uiobject>
+    <uiobject name="PostalCode" type="">
+      <locator>css=#TopazWebPartManager1_twp54834229_zipCode</locator>
+    </uiobject>
+    <uiobject name="RecaptchaLabel" type="">
+      <locator>css=#field_one_left div:last-child .left_field .form_label span</locator>
+    </uiobject>
+    <uiobject name="EnterInfoLabel" type="">
+      <locator>css=#field_one_left div:last-child .left_field p[style='clear:both;'] span</locator>
+    </uiobject>
+    <uiobject name="TryDiffWordsLink" type="link">
+      <locator>css=#field_one_left div:last-child .left_field p[style='clear:both;'] span .recaptcha_reload</locator>
+    </uiobject>
+    <uiobject name="Captcha" type="link">
+      <locator>css=#recaptcha_response_field</locator>
+    </uiobject>
+    <uiobject name="CancelButton" type="link">
+      <locator>css=#TopazWebPartManager1_twp54834229_cancelButton</locator>
+    </uiobject>
+    <uiobject name="NextButton" type="link">
+      <locator>css=#TopazWebPartManager1_twp54834229_nextButton</locator>
+    </uiobject>
+  </page>
+
+  <page name='PrivacyPolicyPage'>
+    <uiobject name="PrivacyPolicyLabel" type="link">
+      <locator>css=td h1</locator>
+    </uiobject>
+    <uiobject name="PrivacyContentLabel" type="link">
+      <locator>css=#WebPart_twp997500278 td div</locator>
+    </uiobject>
+  </page>
+  
+  <page name='RecommendedBrowserPage'>
+    <uiobject name="RecommendedBrowserLabel" type="link">
+      <locator>css=td h1</locator>
+    </uiobject>
+    <uiobject name="SiteLink" type="link">
+      <locator>css=.webPartBodyContent a</locator>
+    </uiobject>
+    <uiobject name="MicrosoftIELabel" type="link">
+      <locator>css=ul li:nth-child(1)</locator>
+    </uiobject>
+    <uiobject name="FirefoxLabel" type="link">
+      <locator>css=ul li:nth-child(2)</locator>
+    </uiobject>
+    <uiobject name="SafariLabel" type="link">
+      <locator>css=ul li:nth-child(3)</locator>
+    </uiobject>
+    <uiobject name="ChromeLbael" type="link">
+      <locator>css=ul li:nth-child(4)</locator>
+    </uiobject>
+  </page>
+  
+  <page name='TermsOfUsePage'>
+    <uiobject name="TermsOfUseLabel" type="link">
+      <locator>css=td h1</locator>
+    </uiobject>
+    <uiobject name="TermsOfUseContent" type="link">
+      <locator>css=.webPartBodyContent</locator>
+    </uiobject>
+  </page>
+  <page name='HelpfulHintsPage'>
+    <uiobject name="HelpfulLinkLabel" type="link">
+      <locator>css=td h1</locator>
+    </uiobject>
+  </page>
+  
+  <page name='HomePage'>
+    <uiobject name="ReadMore" type="link">
+      <locator>css=span[data-bo-bind='static.Terms.ReadMore']</locator>
+    </uiobject>
+    <uiobject name="EstimateNowButton" type="link">
+      <locator>css=span[mbc-content-i='MyView.OverviewText']</locator>
+    </uiobject>
+    <uiobject name="LogoutLink" type="link">
+      <locator>css=.navbar-group-right .btn.btn-link</locator>
+    </uiobject>
+    <uiobject name="MenuButton" type="link">
+      <locator>css=.btn.btn-global.navbar-btn.btn-toggle-nav.btn-menu</locator>
+    </uiobject>
+    <uiobject name="HomeLink" type="link">
+      <locator>css=span[data-bo-bind='static.Terms.Home']</locator>
+    </uiobject>
+  
+  </page>
+  
+  <page name='ErrorMsg'>
+    <uiobject name="ErrorMsgofWrongLoginCredentials" type="link">
+      <locator>css=#TopazWebPartManager1_twp743632896_a tr td:nth-child(2)</locator>
+    </uiobject>
+    <uiobject name="ContinueButton" type="link">
+      <locator>css=a[data-ng-click='continueOnOutage()']</locator>
+    </uiobject>
+    <uiobject name="WarningMsg" type="link">
+      <locator>css=#WebPartTitle_twp743632896</locator>
+    </uiobject>
+    <uiobject name="UnameErrorMsg" type="link">
+      <locator>css=#TopazWebPartManager1_twp1808134992_ctl03</locator>
+    </uiobject>
+    <uiobject name="PwdErrorMsg" type="link">
+      <locator>css=#TopazWebPartManager1_twp1808134992_ctl07</locator>
+    </uiobject>
+    <uiobject name="errormsg" type="link">
+      <locator>css=.error-page.error-page-500.ng-scope h2</locator>
+    </uiobject>
+  </page>
+
+</pages>

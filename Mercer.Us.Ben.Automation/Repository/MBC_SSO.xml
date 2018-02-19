@@ -1,0 +1,5 @@
+﻿<pages>
+  <page name='MBC_SSO'>
+    <uiobject name="ReturningUserLabel" type=""><locator>css=.col-sm-6 h2</locator></uiobject>
+  </page>
+</pages>

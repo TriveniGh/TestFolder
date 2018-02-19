@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E7A31B0-604A-4B0F-863C-ACAABA254B55}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mercer.Us.Ben.Automation</RootNamespace>
+    <AssemblyName>Mercer.Us.Ben.Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>CodedUITest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>E:\3-18-2016\Mercer.US.Ben.Automation\packages\Aspose.Cells.8.7.0\lib\net40\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Selenium.WebDriverBackedSelenium">
+      <HintPath>E:\4-12-2016\Mercer.US.Ben.Automation\Actors\bin\Debug\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.Selenium.Core">
+      <HintPath>E:\4-12-2016\Mercer.US.Ben.Automation\Actors\bin\Debug\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>E:\3-18-2016\Mercer.US.Ben.Automation\packages\Selenium.WebDriver.2.52.0\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>E:\4-12-2016\Mercer.US.Ben.Automation\Actors\bin\Debug\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Main\Test.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Prop.cs" />
+    <Compile Include="Scheduler\ScheduleRun.cs" />
+    <Compile Include="Smoke\SmokeSuite.cs" />
+    <Compile Include="Test_Methods\MBC\MBC_Login.cs" />
+    <Compile Include="Test_Methods\MBC\MBC_Portal.cs" />
+    <Compile Include="Test_Methods\MBC\MBC_Proxy.cs" />
+    <Compile Include="Utility_Code\Email_Outlook.cs" />
+    <Compile Include="Utility_Code\Logger.cs" />
+    <Compile Include="Utility_Code\ResultSheet.cs" />
+    <Compile Include="Utility_Code\Browser.cs" />
+    <Compile Include="Utility_Code\WaitMethods.cs" />
+    <Compile Include="Utility_Code\XML_Util.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BrowserDrivers\chromedriver.exe" />
+    <Content Include="BrowserDrivers\IEDriverServer.exe" />
+    <Content Include="Repository\MBC_Login.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Repository\MBC_Proxy.xml" />
+    <Content Include="Repository\MBC_SSO.xml" />
+    <Content Include="Results\2016_04_18\04_18_2016_17_02_55\Login04_18_2016_17_03_14.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_17_08_25\Login04_18_2016_17_08_36.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_17_08_25\Login04_18_2016_17_08_37.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_17_12_13\Login04_18_2016_17_12_27.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_17_12_13\Login04_18_2016_17_12_28.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_18_51_25\Login04_18_2016_18_51_39.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_29_30\Login04_18_2016_19_29_40.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_29_30\Login04_18_2016_19_29_42.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_40_57\Login04_18_2016_19_41_07.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_40_57\Login04_18_2016_19_41_09.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_44_49\Login04_18_2016_19_44_59.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_44_49\Login04_18_2016_19_45_01.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_55_02\Login04_18_2016_19_55_12.jpg" />
+    <Content Include="Results\2016_04_18\04_18_2016_19_55_02\Login04_18_2016_19_55_13.jpg" />
+    <Content Include="Results\2016_04_19\04_19_2016_11_54_35\Login04_19_2016_11_54_41.jpg" />
+    <Content Include="Results\2016_04_19\04_19_2016_11_54_35\Login04_19_2016_11_54_43.jpg" />
+    <Content Include="Results\2016_04_19\04_19_2016_12_05_41\Login04_19_2016_12_08_22.jpg" />
+    <Content Include="Results\2016_04_19\04_19_2016_12_05_41\Login04_19_2016_12_08_24.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_11_08_38\LoginPageValidationfunc04_21_2016_11_25_17.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_11_54_10\ErrorPageMainfunc04_21_2016_11_59_06.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_11_54_10\ErrorPageMainfunc04_21_2016_12_00_04.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_11_54_10\ErrorPageMainfunc04_21_2016_12_00_37.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ErrorPageMainfunc04_21_2016_12_43_16.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ErrorPageMainfunc04_21_2016_12_43_19.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ErrorPageMainfunc04_21_2016_12_43_23.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ErrorPageMainfunc04_21_2016_12_43_26.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\LogoutFunc04_21_2016_12_43_29.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\LogoutFunc04_21_2016_12_43_32.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\LogoutFunc04_21_2016_12_43_35.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\RecommendedBrowserMainfunc04_21_2016_12_42_26.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\RecommendedBrowserMainfunc04_21_2016_12_42_34.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ReturningUserfunc04_21_2016_12_42_57.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ReturningUserfunc04_21_2016_12_43_00.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ReturningUserfunc04_21_2016_12_43_03.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ReturningUserfunc04_21_2016_12_43_06.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\ReturningUserfunc04_21_2016_12_43_12.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_41_10\TermsOfUseMainfunc04_21_2016_12_41_59.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_46_43\TermsOfUseMainfunc04_21_2016_12_47_19.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_49_09\ErrorPageMainfunc04_21_2016_12_50_36.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_49_09\ErrorPageMainfunc04_21_2016_12_50_47.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_49_09\ErrorPageMainfunc04_21_2016_12_50_48.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_49_09\ReturningUserfunc04_21_2016_12_50_35.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_12_55_59\TermsOfUseMainfunc04_21_2016_12_56_46.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_03_23\LoginPageValidationfunc04_21_2016_13_03_57.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_03_23\PrivacyPolicyMainfunc04_21_2016_13_04_09.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_03_23\TermsOfUseMainfunc04_21_2016_13_04_19.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_10_46\LoginPageValidationfunc04_21_2016_13_11_24.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_10_46\PrivacyPolicyMainfunc04_21_2016_13_11_36.jpg" />
+    <Content Include="Results\2016_04_21\04_21_2016_13_10_46\TermsOfUseMainfunc04_21_2016_13_11_51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BrowserSettings.config" />
+    <None Include="Resources\Regression\MBC_Login.xlsx" />
+    <None Include="Resources\Regression\MODULES.xlsx" />
+    <None Include="Resources\Smoke\MBC_HnB_LifeEvents.xlsx" />
+    <None Include="Resources\Smoke\MBC_Login.xlsx" />
+    <None Include="Resources\Smoke\MBC_Portal.xlsx" />
+    <None Include="Resources\Smoke\MBC_Proxy.xlsx" />
+    <None Include="Resources\Smoke\MBC_SSO.xlsx" />
+    <None Include="Resources\Smoke\MODULES.xlsx" />
+    <None Include="Results\2016_03_23\03_23_2016_17_35_22.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_17_37_27.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_17_41_40.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_17_45_04.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_17_46_56.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_17_49_44.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_19_09_57.xls" />
+    <None Include="Results\2016_03_23\03_23_2016_19_12_05.xls" />
+    <None Include="Results\2016_03_24\03_24_2016_11_53_27.xls" />
+    <None Include="Results\2016_03_24\03_24_2016_11_55_24.xls" />
+    <None Include="Results\2016_03_31\03_31_2016_15_02_43.xls" />
+    <None Include="Results\2016_03_31\03_31_2016_15_03_57.xls" />
+    <None Include="Results\2016_03_31\03_31_2016_15_05_44.xls" />
+    <None Include="Results\2016_03_31\03_31_2016_15_53_11.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_36_47.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_39_10.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_40_43.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_47_58.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_49_43.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_52_27.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_53_13.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_54_38.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_17_58_19.xls" />
+    <None Include="Results\2016_04_06\04_06_2016_18_00_54.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_17_02_55.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_17_08_25.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_17_12_13.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_17_15_25.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_18_51_25.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_18_59_33.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_05_10.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_07_18.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_12_15.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_29_30.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_40_57.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_44_49.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_51_23.xls" />
+    <None Include="Results\2016_04_18\04_18_2016_19_55_02.xls" />
+    <None Include="Results\2016_04_19\04_19_2016_11_54_35.xls" />
+    <None Include="Results\2016_04_19\04_19_2016_11_57_57.xls" />
+    <None Include="Results\2016_04_19\04_19_2016_12_03_52.xls" />
+    <None Include="Results\2016_04_19\04_19_2016_12_05_41.xls" />
+    <None Include="Results\2016_04_19\04_19_2016_12_15_13.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_11_08_38.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_11_25_51.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_11_54_10.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_06_54.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_15_18.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_23_20.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_39_43.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_40_02.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_41_10.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_46_43.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_49_09.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_12_55_59.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_13_03_23.xls" />
+    <None Include="Results\2016_04_21\04_21_2016_13_10_46.xls" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' Or '$(VisualStudioVersion)' == '11.0') And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="UIAutomationTypes" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

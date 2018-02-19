@@ -1,0 +1,64 @@
+2016.04.22 01:05:32  info : Framing Smoke test Rresource path :D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke
+
+2016.04.22 01:05:32  info : Module sheet path is :D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MODULES.xlsx
+
+2016.04.22 01:05:32  info : Following Excel sheet loaded successfuly D:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MODULES.xlsx
+
+2016.04.22 01:05:40  info : Total number of Modules listed in the modul execution sheet6
+
+2016.04.22 01:05:40  info : Selected Browser name is : InternetExplorer
+
+2016.04.22 01:05:40  info : Currently loadding module is : MBC_Proxy
+
+2016.04.22 01:05:40  info : The following test data sheet loaded successfulyD:\SVNsource\Mercer.Us.Ben.Automation\Mercer.US.Ben.Automation\Resources\Smoke\MBC_Proxy.xlsx
+
+2016.04.22 01:05:40  info :  Total number of scenarios to be executed as per Test Data sheet2
+
+2016.04.22 01:05:40  info : Current executable Scenario name :Scenario1
+
+2016.04.22 01:05:40  info : The Scenario Description is:MBC Proxy Scenario Verification
+
+- Login functionality with valid users
+- Verification for 'Administration Access'
+- 'Employee Search ' verification
+- 'Verification for 'Impersonate' option.
+- 'Menu' option Verification
+- Verify 'Life Event Activity' for user as 'Birth Adoption' as life event.
+- 'End of impersonation' verification.
+
+2016.04.22 01:05:40  info : Navigating to sheet and taking function name into Function_Name_List  : Scenario1
+
+2016.04.22 01:05:40  info : Launching Browser window
+
+2016.04.22 01:05:40  info : Current Module is execuing agains Browser as :InternetExplorer
+
+2016.04.22 01:06:00  info : IE driver is loaded
+
+2016.04.22 01:06:00  info : Getting row count of Test methods to be executed sheet: 11
+
+2016.04.22 01:06:00  info : Getting column count of Test methods to be executed sheet: 12
+
+2016.04.22 01:06:00  info : Current executing function name is : LoginPageValidationfunc
+
+2016.04.22 01:06:00  info : Current executing class name is : LoginPageValidationActor
+
+2016.04.22 01:06:00  info : Test scenario description is :  MBC Proxy Application Login Page Validation
+
+2016.04.22 01:06:00  info : The Parameter Name is : URL and value is : https://auth-qai.mercerbenefitscentral.com/MBCQA3/login.tpz
+
+2016.04.22 01:06:00  info : The Parameter Name is : SSO and value is : N
+
+2016.04.22 01:06:00  info : Getting out from the scenario execution list
+
+2016.04.22 01:06:00  info : the name of the class  : LoginPageValidationActor
+
+2016.04.22 01:06:00  info : the name of the Function or Method Name  : LoginPageValidationfunc
+
+2016.04.22 01:06:05  info : Results folder path is created!!
+
+2016.04.22 01:06:06  error : System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Mercer.Us.Ben.Automation.Main.Test.RunTest(String TestType) in d:\SVNsource\Mercer.Us.Ben.Automation\Mercer.Us.Ben.Automation\Main\Test.cs:line 273
+
